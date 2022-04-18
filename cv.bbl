@@ -19,7 +19,7 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
-    \entry{ITISE21:stl-stat-ml}{article}{}
+    \entry{ouyang2022}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=35d7859b14f8b97f76694071b55bca16}{%
            family={Ouyang},
@@ -37,8 +37,40 @@
            given={Meryem},
            giveni={M\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Gran Canaria, Spain}%
+      \strng{namehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{fullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{bibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorbibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authornamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorfullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Abstract Paper}
+      \field{note}{Submitted to ITISE 2022}
+      \field{title}{A {{Comparison Study}} of {{Deep Learning Models Combined}} with {{Multistep Time Series Forecasting Strategies}}}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2022a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=35d7859b14f8b97f76694071b55bca16}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Zuokun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
       }
       \strng{namehash}{382de29f57862a48a9142dbcfeaaafce}
       \strng{fullhash}{382de29f57862a48a9142dbcfeaaafce}
@@ -46,32 +78,95 @@
       \strng{authorbibnamehash}{382de29f57862a48a9142dbcfeaaafce}
       \strng{authornamehash}{382de29f57862a48a9142dbcfeaaafce}
       \strng{authorfullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Full Paper}
+      \field{note}{Submitted to EUSIPCO 2022}
+      \field{title}{Are {{Deep Learning Models Practically Good}} as {{Promised}}? {{A Strategical Comparison}} of {{Deep Learning Models}} for {{Time Series Forecasting}}}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2022b}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=35d7859b14f8b97f76694071b55bca16}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Zuokun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{fullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{bibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorbibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authornamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorfullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Full Paper}
+      \field{note}{Submitted to GRETSI 2022}
+      \field{title}{{Une comparaison des modèles d'apprentissage profond combinés avec des différentes stratégies pour la prédiction multi-étape des séries temporelles}}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=35d7859b14f8b97f76694071b55bca16}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Zuokun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{fullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{bibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorbibnamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authornamehash}{382de29f57862a48a9142dbcfeaaafce}
+      \strng{authorfullhash}{382de29f57862a48a9142dbcfeaaafce}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper aims at comparing different forecasting strategies combined with the STL decomposition method. STL is a versatile and robust time series decomposition method. The forecasting strategies we consider are as follows: three statistical methods (ARIMA, ETS, and Theta), five machine learning methods (KNN, SVR, CART, RF, and GP), and two versions of RNNs (CNN-LSTM and ConvLSTM). We conduct the forecasting test on six horizons (1, 6, 12, 18, and 24 months). Our results show that, when applied to monthly industrial M3 Competition data as a preprocessing step, STL decomposition can benefit forecasting using statistical methods but harms the machine learning ones. Moreover, the STL-Theta combination method displays the best forecasting results on four over the five forecasting horizons.}
       \field{addendum}{Full Paper}
-      \field{booktitle}{Proceedings of The 7th International conference on Time Series and Forecasting (\textbf{ITISE 2021})}
-      \field{issn}{2673-4591}
       \field{journaltitle}{Engineering Proceedings}
-      \field{month}{7}
       \field{number}{1}
-      \field{title}{STL Decomposition of Time Series Can Benefit Forecasting Done by Statistical Methods but not by Machine Learning Ones}
+      \field{title}{{{STL Decomposition}} of {{Time Series Can Benefit Forecasting Done}} by {{Statistical Methods}} but {{Not}} by {{Machine Learning Ones}}}
+      \field{usera}{42}
       \field{volume}{5}
       \field{year}{2021}
       \true{nocite}
+      \field{pages}{42}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/engproc2021005042
       \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2673-4591/5/1/42
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2673-4591/5/1/42
-      \endverb
       \keyw{selected}
-      \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
   \enddatalist
 \endrefsection

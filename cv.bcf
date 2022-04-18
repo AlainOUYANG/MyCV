@@ -2192,7 +2192,7 @@
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">publications.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">CV collections.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>

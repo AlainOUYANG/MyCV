@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.10.6)  9 AUG 2021 13:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.10.6)  18 APR 2022 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1050,14 +1050,14 @@ LaTeX Info: Redefining \nameref on input line 14.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot heightrounded 
 * h-part:(L,W,R)=(128.0374pt, 426.79135pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=706.0pt
+* \textheight=730.0pt
 * \oddsidemargin=55.76741pt
 * \evensidemargin=55.76741pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1975,38 +1975,51 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 94.
+(hyperref)                removing `\\' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 114.
 
 \blx@maxsegment@1=\count435
 \blx@sectionciteorder@1=\count436
-Package biblatex Info: Reference section=1 on input line 161.
-Package biblatex Info: Setting label 'refsection:1' on input line 161.
-Package biblatex Info: Reference section=0 on input line 161.
+Package biblatex Info: Reference section=1 on input line 116.
+Package biblatex Info: Setting label 'refsection:1' on input line 116.
+
+Overfull \hbox (1.27158pt too wide) in paragraph at lines 116--116
+[]\TU/KpRoman(0)/m/n/10 Z. Ouyang, P. Ravier, and M. Jabloun, “Are Deep Learning Models Practically Good as Promised?
+ []
+
+Package biblatex Info: Reference section=0 on input line 116.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 169.
+(hyperref)                removing `\\' on input line 119.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 182.
 
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: FDD74262437D9EE05B61439AAAABB8FB;1415.
+(rerunfilecheck)             Checksum: 19465DFE79337080E80602DC77FE8649;1336.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 28765 strings out of 479418
- 511544 string characters out of 5884585
- 1376744 words of memory out of 5000000
- 45880 multiletter control sequences out of 15000+600000
- 534475 words of font info for 97 fonts, out of 8000000 for 9000
+ 28768 strings out of 479418
+ 511694 string characters out of 5884585
+ 1377760 words of memory out of 5000000
+ 45884 multiletter control sequences out of 15000+600000
+ 534467 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 65i,11n,120p,1216b,4652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,11n,120p,1216b,4642s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv.xdv (2 pages, 66728 bytes).
+Output written on cv.xdv (2 pages, 70768 bytes).
