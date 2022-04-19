@@ -178,7 +178,7 @@
 \RequirePackage[
   style=ieee,
   dashed=false,
-  doi=false,
+  doi=true,
   isbn=false,
   url=false,
   giveninits=true,
