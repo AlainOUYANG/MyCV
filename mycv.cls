@@ -49,7 +49,7 @@
 \RequirePackage[strict]{changepage}
 \geometry{
   a4paper,
-  top=1.5cm,
+  top=2cm,
   bottom=1.5cm,
   left=4.5cm,
   right=1.5cm,
