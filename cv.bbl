@@ -1,0 +1,281 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ddatent/global//global/global}
+    \entry{ouyang2023stlformer}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. {{EUSIPCO}}}
+      \field{title}{{{STLformer}}: {{Exploit STL}} Decomposition and {{Rank Correlation}} for {{Time Series Forecasting}}}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2023rankformer}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. {{IEEE SSP}}}
+      \field{title}{Rankformer: {{Leverage Rank Correlation}} for {{Transformer-based Time Series Forecasting}}}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2023magneticfieldbased}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6b4aa469e9be4c4780c2644bd2cf75a7}{%
+           family={Ouyang},
+           familyi={O\bibinitperiod},
+           given={Guanglie},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b445c5c41b79ed5a6286ce3e86c61590}{%
+           family={{Abed-Meraim}},
+           familyi={A\bibinitperiod},
+           given={Karim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{fullhash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{bibnamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{authorbibnamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{authornamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{authorfullhash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{3}
+      \field{title}{Magnetic-{{Field-Based Indoor Positioning Using Temporal Convolutional Networks}}}
+      \field{usera}{1514}
+      \field{volume}{23}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{1514}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23031514
+      \endverb
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2022are}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. {{EUSIPCO}}}
+      \field{isbn}{978-1-66546-798-8}
+      \field{title}{Are {{Deep Learning Models Practically Good}} as {{Promised}}? {{A Strategic Comparison}} of {{Deep Learning Models}} for {{Time Series Forecasting}}}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2022comparaison}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Proc. GRETSI}}
+      \field{title}{{Une comparaison des modèles d'apprentissage profond combinés avec des différentes stratégies pour la prédiction multi-étape des séries temporelles}}
+      \field{year}{2022}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2022comparison}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. {{ITISE}}}
+      \field{title}{A {{Comparison Study}} of {{Deep Learning Models Combined}} with {{Multistep Time Series Forecasting Strategies}}}
+      \field{usera}{2}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{2}
+      \range{pages}{1}
+    \endentry
+    \entry{ouyang2021stl}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eng. Proc.}
+      \field{number}{1}
+      \field{title}{{{STL Decomposition}} of {{Time Series Can Benefit Forecasting Done}} by {{Statistical Methods}} but {{Not}} by {{Machine Learning Ones}}}
+      \field{usera}{42}
+      \field{volume}{5}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{42}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/engproc2021005042
+      \endverb
+      \keyw{selected}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
