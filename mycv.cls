@@ -121,6 +121,12 @@
 \end{itemize}%
 }
 
+\newenvironment{summary}{%
+  \begin{adjustwidth}{\dimexpr\Gm@rmargin-\Gm@lmargin\relax}{}
+}{%
+  \end{adjustwidth}
+}
+
 % Header
 \renewcommand{\maketitle}{%
   \clearpage%

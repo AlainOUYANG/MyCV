@@ -19,7 +19,7 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
-    \entry{ouyang2023stlformer}{inproceedings}{}
+    \entry{ouyang2023leveraging}{article}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -42,6 +42,72 @@
       \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \field{extraname}{1}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Syst. Appl.}
+      \field{title}{Leveraging {{Rank Correlation}} and {{STL Decomposition}} for {{Transformer-based Time Series Forecasting}}}
+      \field{year}{in preparation, 2023}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2023contemporary}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \field{extraname}{2}
+      \field{sortinit}{i}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Knowl. Data Eng.}
+      \field{title}{A {{Contemporary}} and {{Comprehensive Survey}} on {{Time Series Forecasting}}}
+      \field{year}{in preparation, 2023}
+      \true{nocite}
+      \keyw{selected}
+    \endentry
+    \entry{ouyang2023stlformer}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
+           family={\myname{Ouyang,\bibnamedelimb Zuokun}},
+           familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=cf859ee06e0053f5a65cf3e680bb28a6}{%
+           family={Jabloun},
+           familyi={J\bibinitperiod},
+           given={Meryem},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4e415ede71b146a87b921d691a56375d}{%
+           family={Ravier},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -74,7 +140,7 @@
       \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -101,9 +167,6 @@
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
            familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Multidisciplinary Digital Publishing Institute}%
-      }
       \strng{namehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
       \strng{fullhash}{f68e965c5fdae5b3f23d9e5a83d0a186}
       \strng{bibnamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
@@ -124,9 +187,6 @@
       \true{nocite}
       \field{pages}{1514}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/s23031514
-      \endverb
       \keyw{selected}
     \endentry
     \entry{ouyang2022are}{inproceedings}{}
@@ -194,7 +254,6 @@
       \field{title}{{Une comparaison des modèles d'apprentissage profond combinés avec des différentes stratégies pour la prédiction multi-étape des séries temporelles}}
       \field{year}{2022}
       \true{nocite}
-      \keyw{selected}
     \endentry
     \entry{ouyang2022comparison}{inproceedings}{}
       \name{author}{3}{}{%
@@ -230,6 +289,7 @@
       \true{nocite}
       \field{pages}{2}
       \range{pages}{1}
+      \keyw{selected}
     \endentry
     \entry{ouyang2021stl}{article}{}
       \name{author}{3}{}{%
@@ -246,9 +306,6 @@
            familyi={J\bibinitperiod},
            given={Meryem},
            giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Multidisciplinary Digital Publishing Institute}%
       }
       \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
@@ -270,9 +327,6 @@
       \true{nocite}
       \field{pages}{42}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/engproc2021005042
-      \endverb
       \keyw{selected}
     \endentry
   \enddatalist
