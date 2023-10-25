@@ -13,4 +13,11 @@
             ]
         }
     ],
+    "grammarly.selectors": [
+        {
+            "language": "latex",
+            "scheme": "file",
+            "pattern": "cv.tex"
+        }
+    ],
 }

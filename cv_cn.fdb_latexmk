@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber cv"] 1695287590 "cv.bcf" "cv.bbl" "cv" 1698225295 0
-  "cv.bcf" 1698225294 109833 c011610db60486edacb5b7a4abc7e1da "xelatex"
+["biber cv_cn"] 1694375332 "cv_cn.bcf" "cv_cn.bbl" "cv_cn" 1698225232 0
+  "cv_cn.bcf" 1698225231 109833 c011610db60486edacb5b7a4abc7e1da "xelatex"
   (generated)
-  "cv.bbl"
-  "cv.blg"
+  "cv_cn.bbl"
+  "cv_cn.blg"
   (rewritten before read)
-["xdvipdfmx"] 1698225295 "cv.xdv" "cv.pdf" "cv" 1698225295 0
-  "cv.xdv" 1698225294 87412 35c9d2ae4ab26c6c77d5bcb95fa6ee1e "xelatex"
+["xdvipdfmx"] 1698225231 "cv_cn.xdv" "cv_cn.pdf" "cv_cn" 1698225232 0
+  "cv_cn.xdv" 1698225231 71044 06bf01b922e5ccafde1a1b2c19f499f1 "xelatex"
   (generated)
-  "cv.pdf"
+  "cv_cn.pdf"
   (rewritten before read)
-["xelatex"] 1698225289 "/Users/ouyangzuokun/MyCV/cv.tex" "cv.xdv" "cv" 1698225295 0
-  "/Users/ouyangzuokun/MyCV/cv.tex" 1698225289 9671 dcbc351afefec8c97311a62dacc0f76a ""
+["xelatex"] 1698225226 "/Users/ouyangzuokun/MyCV/cv_cn.tex" "cv_cn.xdv" "cv_cn" 1698225232 0
+  "/Users/ouyangzuokun/MyCV/cv_cn.tex" 1698225226 9549 96dbeb65859f44f8914617dc58ae3212 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -144,18 +144,18 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1677365944 40745 87bb86a62d462f93a1efc6b0c65c872e ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1679858369 10502802 8fd03ad8fd9ae89e28ca490422407628 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv.aux" 1698225294 3656 239155db9189b35b1d4ee1bba3aa23a3 "xelatex"
-  "cv.bbl" 1695287608 13986 61f379a14827873e03c8f55230f4b071 "biber cv"
-  "cv.out" 1698225294 3198 fe4e48101b9419cb2cb35d391464bcf6 "xelatex"
-  "cv.run.xml" 1698225294 2427 e3bc797e60ac3574fab4a0ade13ae0d7 "xelatex"
-  "cv.tex" 1698225289 9671 dcbc351afefec8c97311a62dacc0f76a ""
+  "cv_cn.aux" 1698225231 3591 e8ccc71c11fcf160e6513b435725d58d "xelatex"
+  "cv_cn.bbl" 1694375339 13986 61f379a14827873e03c8f55230f4b071 "biber cv_cn"
+  "cv_cn.out" 1698225231 2258 1b8c106f55fa87c0bb4f2e6e87c750f8 "xelatex"
+  "cv_cn.run.xml" 1698225231 2448 4dcad354035ac69448721225c73c4923 "xelatex"
+  "cv_cn.tex" 1698225226 9549 96dbeb65859f44f8914617dc58ae3212 ""
   "kpfonts-otf.sty" 1624658315 18631 f74b7728f5febe52c3c1e12be24a389c ""
   "mycv.cls" 1694620002 7662 f5f155bff008ddab770261d5c709d5d0 ""
   (generated)
-  "cv.aux"
-  "cv.bcf"
-  "cv.log"
-  "cv.out"
-  "cv.run.xml"
-  "cv.xdv"
+  "cv_cn.aux"
+  "cv_cn.bcf"
+  "cv_cn.log"
+  "cv_cn.out"
+  "cv_cn.run.xml"
+  "cv_cn.xdv"
   (rewritten before read)

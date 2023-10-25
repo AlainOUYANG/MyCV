@@ -12,7 +12,7 @@
 %
 % The Current Maintainer of this work is Cheng XU.
 
-\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mycv}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -73,10 +73,11 @@
 \RequirePackage{tabu}
 \RequirePackage{xifthen}
 \RequirePackage{xparse}
+\RequirePackage{xeCJK} % For Chinese
 
 % Personal info
 \NewDocumentCommand{\name}{o m}{%
-  \gdef\@name{#2}
+  \gdef\@name{\sffamily#2}
   \IfValueTF{#1}{\gdef\@shortname{#1}}{\gdef\@shortname{#2}}
 }
 \newcommand*{\address}[1]{\gdef\@address{#1}}
@@ -85,6 +86,7 @@
 \newcommand*{\homepage}[1]{\gdef\@homepage{#1}}
 \newcommand*{\github}[1]{\gdef\@github{#1}}
 \newcommand*{\linkedin}[1]{\gdef\@linkedin{#1}}
+\newcommand*{\wechat}[1]{\gdef\@wechat{#1}}
 \renewcommand*{\date}[1]{\gdef\@date{#1}}
 \date{\today}
 
@@ -99,6 +101,8 @@
   \begingroup%
   \vspace{\parskip}
   \normalsize%
+  \scshape%
+  % \sffamily%
   \phantomsection%
   \addcontentsline{toc}{subsection}{#1}%
   \noindent\textbf{#1}\IfValueT{#2}{\hspace*{\fill}#2}%
@@ -115,7 +119,7 @@
 \newenvironment{positions}{%
   \vspace{-\parskip}%
   % \entry{<title>}{<date>}
-  \newcommand*{\entry}[2]{\item \textbf{##1}\printdate{##2}}%
+  \newcommand*{\entry}[2]{\item \textbf{\it ##1}\printdate{##2}}%
   \begin{itemize}[leftmargin=0pt,label={}]%
     }{%
 \end{itemize}%
@@ -161,7 +165,11 @@
         }%
         \ifthenelse{\isundefined{\@linkedin}}{}{%
           \ifbool{isstart}{\setbool{isstart}{false}}{}%
-          \href{https://www.linkedin.com/in/\@linkedin}{\faIcon{linkedin}~\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faIcon{linkedin}~\@linkedin\\}%
+        }%
+        \ifthenelse{\isundefined{\@wechat}}{}{%
+          \ifbool{isstart}{\setbool{isstart}{false}}{}%
+          {\faIcon{weixin}~\@wechat}%
         }%
       \end{flushright}
     \end{minipage}

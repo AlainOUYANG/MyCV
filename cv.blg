@@ -1,20 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'cv.blg'
-[85] biber-darwin:340> INFO - === Wed Aug  2, 2023, 09:12:12
-[107] Biber.pm:419> INFO - Reading 'cv.bcf'
-[203] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[203] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[203] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[222] Biber.pm:4419> INFO - Processing section 1
-[235] Biber.pm:4610> INFO - Looking for bibtex file 'CV collections.bib' for section 1
-[236] bibtex.pm:1713> INFO - LaTeX decoding ...
-[249] bibtex.pm:1519> INFO - Found BibTeX data source 'CV collections.bib'
-[358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[358] Biber.pm:4239> INFO - Sorting list 'ddatent/global//global/global' of type 'entry' with template 'ddatent' and locale 'en-US'
-[358] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[368] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[373] bbl.pm:763> INFO - Output to cv.bbl
-[373] Biber.pm:131> WARN - legacy year field 'in preparation, 2023' in entry 'ouyang2023leveraging' is not an integer - this will probably not sort properly.
-[373] Biber.pm:131> WARN - legacy year field 'in preparation, 2023' in entry 'ouyang2023contemporary' is not an integer - this will probably not sort properly.
-[373] Biber.pm:133> INFO - WARNINGS: 2
+[85] biber-darwin:340> INFO - === Thu Sep 21, 2023, 11:13:28
+[104] Biber.pm:419> INFO - Reading 'cv.bcf'
+[200] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[200] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[200] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[218] Biber.pm:4419> INFO - Processing section 1
+[229] Biber.pm:4610> INFO - Looking for bibtex file 'CV collections.bib' for section 1
+[231] bibtex.pm:1713> INFO - LaTeX decoding ...
+[243] bibtex.pm:1519> INFO - Found BibTeX data source 'CV collections.bib'
+[355] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[355] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[355] Biber.pm:4239> INFO - Sorting list 'ddatent/global//global/global' of type 'entry' with template 'ddatent' and locale 'en-US'
+[355] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[365] bbl.pm:660> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[370] bbl.pm:763> INFO - Output to cv.bbl
+[370] Biber.pm:131> WARN - legacy year field '2023, (SCIE Q1, IF=3.9)' in entry 'ouyang2023magneticfieldbased' is not an integer - this will probably not sort properly.
+[370] Biber.pm:131> WARN - legacy year field '2023, (SCIE Q1, IF=8, in preparation)' in entry 'ouyang2023leveraging' is not an integer - this will probably not sort properly.
+[370] Biber.pm:131> WARN - legacy year field '2023, (SCIE Q1, IF=8.9, in preparation)' in entry 'ouyang2023contemporary' is not an integer - this will probably not sort properly.
+[370] Biber.pm:133> INFO - WARNINGS: 3
