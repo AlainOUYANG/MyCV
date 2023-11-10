@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  25 OCT 2023 17:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  9 NOV 2023 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1220,14 +1220,14 @@ Package hyperref Info: Link coloring OFF on input line 19.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot heightrounded 
 * h-part:(L,W,R)=(128.0374pt, 426.79135pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* v-part:(T,H,B)=(34.14322pt, 782.45088pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=718.0pt
+* \textheight=754.0pt
 * \oddsidemargin=55.76741pt
 * \evensidemargin=55.76741pt
-* \topmargin=-52.36449pt
+* \topmargin=-75.12677pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1951,48 +1951,54 @@ Package nag Warning: Command \it is an old LaTeX 2.09 command.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 59.
+(nag)                Use \itshape or \textit instead on input line 61.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 59.
+(nag)                Use \itshape or \textit instead on input line 61.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 60.
+(nag)                Use \itshape or \textit instead on input line 62.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 74.
+(nag)                Use \itshape or \textit instead on input line 78.
 
 
-Overfull \hbox (0.3521pt too wide) in paragraph at lines 85--85
+Overfull \hbox (0.3521pt too wide) in paragraph at lines 91--91
 []|||\TU/KpSans(0)/m/sc/12 Professional 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 85.
+(hyperref)                removing `\\' on input line 91.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 90.
+(nag)                Use \itshape or \textit instead on input line 96.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 90.
+(nag)                Use \itshape or \textit instead on input line 96.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 106.
+(nag)                Use \itshape or \textit instead on input line 110.
+
+
+Overfull \hbox (1.69873pt too wide) in paragraph at lines 118--119
+[]\TU/KpRoman(0)/m/n/10 Investigated the decomposition-ensemble strategy on forecasting methods, implemented a deep
+ []
+
+
+Overfull \hbox (2.9988pt too wide) in paragraph at lines 119--121
+[]\TU/KpRoman(0)/m/n/10 Developed an automated forecasting tool that selects the optimal forecasting strategy and model: 
+ []
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 121.
-
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 135.
+(nag)                Use \itshape or \textit instead on input line 148.
 
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(1)/m/n/8'.
@@ -2148,7 +2154,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 146.
+(Font)              scaled to size 8.00085pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2201,7 +2207,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 146.
+(Font)              scaled to size 6.00064pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2254,7 +2260,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 146.
+(Font)              scaled to size 5.00053pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2307,7 +2313,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 146.
+(Font)              scaled to size 7.99915pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2360,7 +2366,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 146.
+(Font)              scaled to size 5.99936pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2413,7 +2419,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 146.
+(Font)              scaled to size 4.99947pt on input line 159.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2622,18 +2628,18 @@ Package microtype Info: Character `\textquestiondown ' is missing
 
 
 ]
-Overfull \hbox (5.58873pt too wide) in paragraph at lines 154--155
-[]\TU/KpRoman(0)/m/n/10 Deep Learning, Machine Learning, Time Series Analysis, Econometrics, Causal
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 162.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 158.
+(hyperref)                removing `\\' on input line 251.
 
 \blx@maxsegment@1=\count471
 \blx@sectionciteorder@1=\count472
-Package biblatex Info: Reference section=1 on input line 160.
-Package biblatex Info: Setting label 'refsection:1' on input line 160.
+Package biblatex Info: Reference section=1 on input line 253.
+Package biblatex Info: Setting label 'refsection:1' on input line 253.
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2645,68 +2651,64 @@ Package biblatex Warning: Split bibliography detected.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
-Overfull \hbox (2.0631pt too wide) in paragraph at lines 160--160
+Overfull \hbox (2.0631pt too wide) in paragraph at lines 253--253
 [][]\TU/KpRoman(0)/b/n/10 Z. [][]Ouyang\TU/KpRoman(0)/m/n/10 , M. Jabloun, and P. Ravier, “Rankformer: Leverage Rank Correlation for Transformer-
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
 
-Overfull \hbox (4.47888pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.47888pt too wide) in paragraph at lines 253--253
 [][]\TU/KpRoman(0)/b/n/10 Z. [][]Ouyang\TU/KpRoman(0)/m/n/10 , P. Ravier, and M. Jabloun, “Are Deep Learning Models Practically Good as Promised?
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 160.
+(nag)                Use \bfseries or \textbf instead on input line 253.
 
-Package biblatex Info: Reference section=0 on input line 160.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 163.
-
+Package biblatex Info: Reference section=0 on input line 253.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 229.
+(hyperref)                removing `\\' on input line 285.
 
 
-Package nag Warning: 17 complaints in total.
+Package nag Warning: 16 complaints in total.
 
 [2] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: FE4E48101B9419CB2CB35D391464BCF6;3198.
+(rerunfilecheck)             Checksum: 7BEFD96AF7BB8EEF4DC76DC115BEFD64;3707.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31892 strings out of 476683
- 612788 string characters out of 5804047
- 1883018 words of memory out of 5000000
- 51669 multiletter control sequences out of 15000+600000
- 516827 words of font info for 127 fonts, out of 8000000 for 9000
+ 31889 strings out of 476683
+ 612632 string characters out of 5804047
+ 1884018 words of memory out of 5000000
+ 51667 multiletter control sequences out of 15000+600000
+ 516819 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  113i,12n,142p,1216b,4866s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.xdv (2 pages, 87412 bytes).
+Output written on cv.xdv (2 pages, 97624 bytes).

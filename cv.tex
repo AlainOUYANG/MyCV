@@ -32,7 +32,7 @@
 % \end{itemize}
 
 \begin{summary}
-  Recently graduated with a Ph.D., I specialize in the fusion of econometrics and machine learning, particularly in time series forecasting. My research area encompasses time series analysis, sequential learning, and econometrics, in which I bring a robust understanding of both theoretical concepts and practical applications. I am also a team player with a proven track record of collaborating with cross-functional teams to achieve business goals.
+  Recently graduated with a Ph.D., I specialize in the fusion of econometrics and machine learning, particularly in time series forecasting. My research area encompasses time series analysis, signal processing, and sequential learning, in which I bring a robust understanding of both theoretical concepts and practical applications. I am also a team player with a proven track record of collaborating with cross-functional teams to achieve business goals.
 \end{summary}
 
 \vspace{-1em}
@@ -42,8 +42,10 @@
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Ph.D.\footnotemark[1], Computer Science and Signal Processing}{Oct. 2019~--~Sept. 2023}
+  \entry{Ph.D.\footnotemark[1], Computer Science and Signal Processing}{10/2019~--~09/2023}
 \end{positions}
+
+\vspace{-0.3em}
 
 \begin{itemize}
   \itemsep 0em
@@ -56,9 +58,11 @@
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Dipl\^ome d'Ing\'enieur\footnotemark[2], Computer Engineering, {\it Polytech Orl\'eans}}{Sept. 2015~--~Sept. 2018}
-  \entry{M.Sc., Computer Science}{Sept. 2017~--~Sept. 2018}
+  \entry{Dipl\^ome d'Ing\'enieur\footnotemark[2], Computer Engineering, {\it Polytech Orl\'eans}}{09/2015~--~09/2018}
+  \entry{M.Sc., Computer Science}{09/2017~--~09/2018}
 \end{positions}
+
+\vspace{-0.3em}
 
 \begin{itemize}
   \itemsep 0em
@@ -71,8 +75,10 @@
 \subsection{\large \scshape Beijing Institute of Technology}[Beijing, China]
 
 \begin{positions}
-  \entry{B.Eng., Electrical \& Electronics Engineering}{Sept. 2012~--~June 2016}
+  \entry{B.Eng., Electrical \& Electronics Engineering}{09/2012~--~06/2016}
 \end{positions}
+
+\vspace{-0.3em}
 
 \begin{itemize}
   \itemsep 0em
@@ -87,57 +93,64 @@
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Lecturer, {\it Teaching for Engineering Program at Polytech Orl\'eans}}{Jan. 2023~--~Sept. 2023}
+  \entry{Lecturer, {\it Teaching for Engineering Program at Polytech Orl\'eans}}{01/2023~--~09/2023}
 \end{positions}
 
 \begin{itemize}
   \itemsep 0em
-  \item Signals and Linear Systems \textit{(EPL3CI13)}.
-  \item Introduction to Signal Processing \textit{(EPL4CI04)}.
-  \item Acquisition Systems \textit{(EPL2IA01)}.
-  \item Arduino \& Embedded Systems \textit{(EPL2CI03)}.
+  \item Introduction to Signal Processing. Signal and Linear Systems. Acquisition Systems. MATLAB.
+  \item Arduino \& Embedded Systems.
 \end{itemize}
 
 \vspace{-\parskip}
 
-\subsection{\large \scshape ATTILA Gestion}[Lyon \& Montargis, France]
+\subsection{\large \scshape ATTILA Gestion}[Lyon, France]
 
 \begin{positions}
-  \entry{Data Scientist}{Oct. 2019~--~Dec. 2022}
+  \entry{Data Scientist}{04/2018~--~12/2022}
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
-  \item Worked with cross-functional teams to develop a forecasting tool to support business decisions.
-  \item Developed an evaluation framework to assess the performance of forecasting models on different sampling frequencies, seasonalities, and stationarity, under different forecasting strategies.
-  \item Proposed STLformer, a Transformer-based time series forecasting model. It uses Spearman's $\rho$-based attention and STL decomposition, combined with the ARCH effect test, to achieve forecasting in $\mathcal{O}(N \log{N})$. It outperforms SOTA methods on multiple datasets, especially on nonlinearly dependent series (e.g., financial series). Deployed in the internal forecasting tool.
+  \itemsep 0.3em
+  \item ATTILA is a building industry franchise, partnering with major industry groups. It has a large amount of time series data, e.g., the number of customers, revenue, and service types.
+  \item ATTILA wants to segment its customer groups by size and field for tailored resource allocation. It also requires a forecasting tool for key indicators to support business decisions.
+  \item Employed clustering for customer segmentation and econometric/deep learning for forecasting sales and revenue. Provided multiple forecasting models for internal tools.
+  \item Investigated the decomposition-ensemble strategy on forecasting methods, implemented a deep learning evaluation framework under various strategies, and assessed them on diverse datasets.
+  \item Developed an automated forecasting tool that selects the optimal forecasting strategy and model:
+  \begin{itemize}
+    \item For short series (<100 points), traditional methods like ARIMA and Theta are chosen, along with \textit{ensemble learning} strategies.
+    \item For medium-length series (100 to 500 points), hybrid methods like ES-RNN and Prophet are selected, incorporating the \textit{decomposition-ensemble} strategy.
+    \item For long series of (>500 points), deep learning methods like Transformer are applied.
+  \end{itemize}
+  \item Created a user-friendly and accessible forecasting tool based on libraries e.g., Flask, Plotly, and sktime, delivered as a Web APP in Docker. Users without knowledge of time-series techniques can upload an Excel file in the correct format, and this tool will complete the predictive analysis, presenting the forecast results in graphical form to support business decisions.
+  % \item Proposed STLformer, a Transformer-based time series forecasting model. It uses Spearman's $\rho$-based attention and STL decomposition, combined with the ARCH effect test, to achieve forecasting in $\mathcal{O}(N \log{N})$. It outperforms SOTA methods on multiple datasets, especially on nonlinearly dependent series (e.g., financial series). Deployed in the internal forecasting tool.
 \end{itemize}
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\subsection{\large \scshape ATTILA Gestion}[Montargis, France]
+% \subsection{\large \scshape ATTILA Gestion}[Montargis, France]
 
-\begin{positions}
-  \entry{Data Scientist Intern}{Apr. 2018~--~Sept. 2018}
-\end{positions}
+% \begin{positions}
+%   \entry{Data Scientist Intern}{Apr. 2018~--~Sept. 2018}
+% \end{positions}
 
-\begin{itemize}
-  \itemsep 0em
-  \item Assessed various internal metrics with time series tools to evaluate franchisees' performance.
-  \item Systematically reviewed commonly used methods in time series analysis, e.g., ARIMA, ETS, Theta, and decomposition methods and assessed them on the company's data.
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item Assessed various internal metrics with time series tools to evaluate franchisees' performance.
+%   \item Systematically reviewed commonly used methods in time series analysis, e.g.,ARIMA, ETS, Theta, and decomposition methods and assessed them on the company's data.
+% \end{itemize}
 
 \vspace{-\parskip}
 
 \subsection{\large \scshape eContent Store S\`arl}[Luxembourg]
 
 \begin{positions}
-  \entry{Software Development Intern}{June 2017~--~Aug. 2017}
+  \entry{Software Development Intern}{06/2017~--~08/2017}
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
-  \item Acted as one of the core developers of the Android development team.
+  \itemsep 0.3em
+  \item Acted as one of the core developers of the Android development team for an AR product.
   \item Implemented key enhancements and upgrades for AR functionalities, encompassing improved technique selection, natural feature training pipeline, and numerous bug fixes.
   \item Developed a WebGL tool for natural features training to improve rendering performance.
   \item Wrote design and related interface documentation, and user manuals for the WebGL tool.
@@ -145,62 +158,86 @@
 
 \footnotetext[1]{Industrial Ph.D. program contracted with ATTILA Gestion.}
 
-\section{Skills}
-
-\begin{description}
-  \itemsep 0em
-  \item[Programming:] Python, R, C\#, Java, C/C++, Swift, MATLAB, SQL
-  \item[Frameworks \& Tools:] PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
-  \item[Skills \& Expertise:] Deep Learning, Machine Learning, Time Series Analysis, Econometrics, Causal Inference, Signal Processing, Optimization Theory, Non-linear Regression
-  \item[Languages:] English (proficient), French (proficient), Mandarin (native)
-\end{description}
-
-\section{Selected \\ Publications}
-
-\publications[keyword={selected}]{CV collections.bib}
-% \publications[keyword={selected}]{publications.bib}
 \vspace{-0.5em}
 \section{Selected \\ Projects}
 
-\subsection{iOS Application \textit{RestauRank}}[Mar. 2018~--~Apr. 2018]
+% \subsection{iOS Application \textit{RestauRank}}[Mar. 2018~--~Apr. 2018]
+
+% \begin{itemize}
+%   \itemsep 0em
+%   \item Developed a map App to locate top-rated local restaurants and determine the fastest route.
+%   \item Google Maps SDK and Google Geolocation API for map visualization, navigation, and reviews.
+% \end{itemize}
+
+\subsection{STLformer: Forecasting with STL Decomposition and Rank Correlation}[03/2023]
+
+\vspace{-\parskip}
 
 \begin{itemize}
-  \itemsep 0em
-  \item Developed a map App to locate top-rated local restaurants and determine the fastest route.
-  \item Google Maps SDK and Google Geolocation API for map visualization, navigation, and reviews.
+  \item Proposed STLformer, a Transformer-based time series forecasting model.
+  \item Progressively decomposes the series with STL and models seasonal and long-term trend patterns with the encoder and decoder, respectively.
+  \item Tests the ARCH effect and uses Spearman's $\rho$-based attention to model nonlinear dependencies.
+  \item Achieves forecasting in $\mathcal{O}(N \log{N})$ and outperforms SOTA methods on multiple datasets, especially on nonlinearly dependent series (e.g., financial series).
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
-\subsection{Archaeological Ceramic Decorations Segmentation}[Jan. 2018~--~Mar. 2018]
+\subsection{On Deep Learning-based Time Series Forecasting Strategies}[07/2022]
+
+\vspace{-\parskip}
 
 \begin{itemize}
-  \itemsep 0em
-    \item Built 2D FCNs to segment decorated regions on ancient ceramic fragments using depth maps.
-    \item Clustered segmented areas and preprocessed depth maps into distinct categories.
-    \item Benchmarked the clustering results against other algorithms, including $K$-means and DBSCAN.
+  \item Assessed various forecasting strategies, i.e., one-step recursive, direct, MIMO, and MISMO.
+  \item Evaluated multiple deep learning models on diverse datasets and different strategies.
+  \item Discussed the pros and cons of different models and strategies and provided recommendations for different application scenarios, w.r.t. series length, granularity, seasonality, and stationarity.
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
-\subsection{Plant ECGs Classification with CNN and SVM}[Oct. 2017~--~Dec. 2017]
+\subsection{On the Decomposition-Ensemble Strategy on TSF Algorithms}[07/2021]
+
+\vspace{-\parskip}
+
+\begin{itemize}
+  \item Assessed various decomposition methods, i.e., Classical, STL, and Prophet.
+  \item Implemented econometric and ML models under the decomposition-ensemble strategy.
+  \item Evaluated the performance of different models on the M-Competition dataset.
+  \item This strategy can benefit traditional models, but its impact on ML models depends on the data distribution.
+\end{itemize}
+
+\vspace{-\parskip}
+
+\subsection{Decorations Segmentation from Ceramic Shards with Deep Learning}[02/2018]
+
+\vspace{-\parskip}
+
+\begin{itemize}
+  \item Built 2D FCNs to segment decorated regions on ancient ceramic shards.
+  \item Benchmarked the segmentation results against other algorithms, e.g., $K$-means and DBSCAN.
+\end{itemize}
+
+\vspace{-\parskip}
+
+\subsection{Plant ECGs Classification with CNN and SVM}[11/2017]
+
+\vspace{-\parskip}
 
 \begin{itemize}
   \item Sampled 400 plant ECG signals using BitScope and plant ECG sensor.
-  \item Extracted four features from the ECGs and classified with 1D-CNN and SVM.
+  \item Classified the signals with 1D-CNN and SVM, where SVM uses four core extracted features.
   \item Achieved 87\% accuracy with 1D-CNN and 98\% accuracy with SVM.
 \end{itemize}
 
-\vspace{-0.5em}
+% \vspace{-0.5em}
 
-\subsection{A Microphone Array-based System for Sound Source Localization}[Mar. 2016~--~May 2016]
+% \subsection{A Microphone Array-based System for Sound Source Localization}[Mar. 2016~--~May 2016]
 
-\begin{itemize}
-  \itemsep 0em
-  \item Developed a microphone array system with Python for sound source localization.
-  \item Used Raspberry Pi, Arduino UNO, a stepper motor, and an eight-microphone array.
-  \item Implemented DOA-TDOA \& GCC algorithms for sound source localization.
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item Developed a microphone array system with Python for sound source localization.
+%   \item Used Raspberry Pi, Arduino UNO, a stepper motor, and an eight-microphone array.
+%   \item Implemented DOA-TDOA \& GCC algorithms for sound source localization.
+% \end{itemize}
 
 % \section{Talks}
 
@@ -209,7 +246,26 @@
 %   \item Use Time Series Prediction Methods to Forecast Customers Number, \emph{1st Collaborative Workshop on Artificial Intelligence Applications for Small Medium Enterprises}, Orl\'eans, France, June~2018.
 % \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
+
+\section{Selected \\ Publications}
+
+\publications[keyword={selected}]{CV collections.bib}
+% \publications[keyword={selected}]{publications.bib}
+
+\vspace{-\parskip}
+
+\section{Skills}
+
+\begin{description}
+  \itemsep 0em
+  \item[Programming:] Python, R, MATLAB, C\#, Java, C/C++, SQL, \LaTeX
+  \item[Frameworks \& Tools:] PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
+  \item[Expertise:] Machine/Deep Learning, Time Series Analysis, Econometrics, Causal Inference, Signal Processing, Nonlinear Optimization
+  \item[Languages:] English (proficient), French (proficient), Mandarin (native)
+\end{description}
+
+\vspace{-\parskip}
 
 \section{Awards}
 
@@ -219,12 +275,12 @@
   \item College Student Academic Scholarship, Beijing Institute of Technology \printdate{2012~--~2015}
   % \item Provincial 2nd Prize, Beijing University Students' Calligraphy and Painting Exhibition \printdate{2014}
   \item National 3rd Prize, Chinese Exhibition of Calligraphy and Painting for Undergraduates \printdate{2013}
-  \item National 3rd Prize, The 25th Chinese Chemistry Olympiad \printdate{2011}
-  \item Provincial 1st Prize, The 28th Chinese Physics Olympiad \printdate{2011}
-  \item Provincial 1st Prize, The 20th China High School Biology Olympiad \printdate{2011}
+  % \item National 3rd Prize, The 25th Chinese Chemistry Olympiad \printdate{2011}
+  % \item Provincial 1st Prize, The 28th Chinese Physics Olympiad \printdate{2011}
+  % \item Provincial 1st Prize, The 20th China High School Biology Olympiad \printdate{2011}
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
 \section{Other \\ Experience}
 \begin{itemize}
@@ -233,10 +289,10 @@
   \item Vice President, \emph{Association of Calligraphy of Beijing Institute of Technology} \printdate{2013~--~2015}
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
 \section{Hobbies}
 Basketball, Reading, Chinese Calligraphy, Singing, Fitness, and Cooking.
 
-\footnotetext[2]{The ``Diplôme d'Ingénieur'' is a highly accredited elite diploma in France. Equivalent to M.Eng. Only the top 10\% of the students in the French Baccalaureate can apply for this education program in engineering schools. Students delve deep into engineering and science courses and receive management, economics, and social sciences education, ensuring they emerge as well-rounded professionals.}
+\footnotetext[2]{``Diplôme d'Ingénieur'' is a highly accredited elite diploma in France, equivalent to M.Eng. Only the top 10\% of the students in the French Baccalaureate can apply for this education program in engineering schools. Students delve deep into engineering and science courses and receive management, economics, and social sciences education, ensuring they emerge as well-rounded professionals.}
 \end{document}

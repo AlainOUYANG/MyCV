@@ -3,7 +3,7 @@
 
 \documentclass{mycv}
 
-\name[欧阳佐坤]{欧阳佐坤~{\normalsize 求职意向: 研究员. 随时入职}}
+\name[欧阳佐坤]{欧阳佐坤~{\normalsize 求职意向: 算法研究员. 随时入职}}
 \phone{+86 186-0022-6561\\}
 \email{zuokun.ouyang@outlook.com}
 \homepage{https://alainouyang.github.io}
@@ -23,7 +23,7 @@
   2023 年 9 月取得博士学位, 专长于计量经济学和深度学习的交叉领域, 特别在时间序列预测方面有深入的研究. 研究涵盖时间序列分析、信号处理及序列学习等领域. 致力于将理论与业务结合, 创造实际价值. 在团队合作方面有着丰富的经验, 能与不同领域的团队成员良好合作, 共同达成目标. 对自己的领域充满热情, 期待在未来带来更多的价值和创新.
 \end{summary}
 
-\vspace{-1em}
+% \vspace{-1em}
 
 \section{教育背景}
 
@@ -34,11 +34,11 @@
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
+  \itemsep 0.4em
   \item 学位论文: \textit{Time Series Forecasting: From Econometrics to Deep Learning}
   \item 指导教师: Philippe Ravier 教授, Meryem Jabloun 副教授
-  \item 项目资金: Association Nationale de la Recherche et de la Technologie CIFRE $N^{\circ}$ 2019/0551
-  \item 与 ATTILA Gestion 公司合作, 企业博士项目
+  % \item 项目资金: Association Nationale de la Recherche et de la Technologie CIFRE $N^{\circ}$ 2019/0551
+  % \item 与 ATTILA Gestion 公司合作, 企业博士项目
 \end{itemize}
 
 \vspace{-\parskip}
@@ -51,7 +51,7 @@
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
+  \itemsep 0.4em
   \item 学位论文: \textit{A Fundamental Study on Deep Learning based Time Series Forecasting}
   \item 指导教师: Christel Vrain 教授, Marcilio C. P. de Souto 教授, Sylvie Treuillet 副教授
 \end{itemize}
@@ -65,7 +65,7 @@
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
+  \itemsep 0.4em
   \item 学位论文: \textit{A Microphone Array-based System for Sound Source Localization}
   \item 指导教师: Shiyong Li 副教授, Rodolphe Weber 副教授
 \end{itemize}
@@ -74,19 +74,18 @@
 
 \section{工作经历}
 
-\subsection{\large 奥尔良大学, 综合理工学院}[奥尔良, 法国]
+\subsection{\large 奥尔良大学}[奥尔良, 法国]
 
 \begin{positions}
-  \entry{助教}{01/2023~--~08/2023}
+  \entry{助教, 综合理工学院}{01/2023~--~08/2023}
 \end{positions}
 
+为本科生和硕士研究生讲授以下课程:
+
 \begin{itemize}
-  \itemsep 0em
-  \item 信号处理导论 \textit{(EPL4CI04)}.
-  \item 信号与线性系统 \textit{(EPL3CI13)}.
-  \item 采样系统与信号处理 \textit{(EPL2IA01)}.
-  \item Arduino 与嵌入式系统 \textit{(EPL2CI03)}.
-  \item 信号处理导论---MATLAB 实现 \textit{(EPL2CI13)}.
+  \itemsep 0.4em
+  \item 信号处理: 信号处理导论、信号与线性系统、采样系统与信号处理.
+  \item 嵌入式系统: Arduino Programming.
 \end{itemize}
 
 \vspace{-\parskip}
@@ -94,30 +93,32 @@
 \subsection{\large \scshape ATTILA Gestion}[里昂, 法国]
 
 \begin{positions}
-  \entry{数据科学家}{10/2019~--~12/2022}
+  \entry{数据科学家}{04/2018~--~12/2022}
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
-  \item 使用计量经济学和深度学习方法进行客户细分, 并为客户数量, 收入等关键指标开发预测模型.
-  \item 通过与多个职能团队合作, 为加盟分部的管理者开发了内部预测工具, 支持业务决策.
-  \item 研究了时间序列分解对于传统方法和机器学习方法在预测性能上的影响, 并实现了多种预测策略下的深度学习模型的评估框架, 用于评估其在不同采样频率、季节、平稳性的数据集上的性能.
-  \item 提出了 STLformer, 一种基于 Transformer 的时间序列预测模型. 该模型使用了基于 Spearman 相关系数的注意力机制和 STL 分解, 并结合 ARCH 效应检验, 实现了在 $\mathcal{O}(N \log{N})$ 的复杂度下的时间序列预测. 该模型在多个数据集上均取得了优于传统方法的预测性能, 尤其在具有非线性依赖的序列（如金融时序）上有明显提升. 被应用于公司内部的预测工具中.
+  \itemsep 0.4em
+  \item ATTILA 是法国一家连锁加盟企业, 专注于屋顶的维修和保养. 其客户包括了法国多家知名企业, 如 Orange, Carrefour, Total 等. 公司内部有着大量的时序数据, 如客户数量、收入、服务类型等.
+  \item 针对不同规模、领域的客户群体, 公司需要对其进行细分, 以分配不同的资源和服务. 同时需要为客户数量、订单量、收入等关键指标开发内部预测工具, 以支持业务决策和各地加盟商的运营.
+  \item 使用多种聚类方法进行了客户细分, 并使用计量经济学和深度学习方法, 对客户数量、订单量、收入等关键指标进行预测. 为内部的预测工具提供了多种预测模型, 并在内部数据上进行了评估.
+  \item 研究了分解集成策略对于不同预测方法在性能上的影响, 实现了多种预测策略下的深度学习模型的评估框架, 用于评估其在不同特征（\emph{长度、粒度、季节性、平稳性}）的数据集上的性能.
+  \item 开发了一套自动化预测工具, 针对不同特征的时序数据, 自动选择最优的预测策略和模型: 针对不超过 100 个数据点的短序列, 选择传统方法如 ARIMA, Theta, 并采用集成学习策略; 针对长度在 100 至 500 之间的中等序列, 选择 Hybrid 方法如 ES-RNN, Prophet, 并采用分解集成策略; 针对长度超过 500 的长序列, 选择深度学习方法如 Transformer.
+  \item 基于 Flask, Plotly 和 sktime 等库, 开发了一款 Web APP, 以 Docker 形式交付, 用于预测客户数量、订单量、收入等关键指标. 用户无须懂得时序相关的技术, 只需要上传符合格式的 Excel 文件, 此工具即可完成预测分析, 并将预测结果以图表的形式展示给用户, 支持其业务决策.
 \end{itemize}
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\subsection{\large \scshape ATTILA Gestion}[蒙塔尔纪, 法国]
+% \subsection{\large \scshape ATTILA Gestion}[蒙塔尔纪, 法国]
 
-\begin{positions}
-  \entry{数据科学家, 实习}{04/2018~--~09/2018}
-\end{positions}
+% \begin{positions}
+%   \entry{数据科学家, 实习}{04/2018~--~09/2018}
+% \end{positions}
 
-\begin{itemize}
-  \itemsep 0em
-  \item 通过使用时序分析工具对连锁加盟分部的各种内部指标进行分析, 以评估其发展状况.
-  \item 对时序分析中常用的方法, 如 ARIMA, ETS, 时序分解, 以及常用的计量经济学和机器学习模型, 如 State Space, Theta, SVR 等, 进行了系统的文献综述, 并在公司内部的数据上进行了评估.
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item 通过使用时序分析工具对连锁加盟分部的各种内部指标进行分析, 以评估其发展状况.
+%   \item 对时序分析中常用的方法, 如 ARIMA, ETS, 时序分解, 以及常用的计量经济学和机器学习模型, 如 State Space, Theta, SVR 等, 进行了系统的文献综述, 并在公司内部的数据上进行了评估.
+% \end{itemize}
 
 \vspace{-\parskip}
 
@@ -128,68 +129,80 @@
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
-  \item 作为 Android 开发团队的核心开发者之一, 主导并实施了 AR 功能的一系列关键增强和升级措施, 其中包括更优化的技术选型、更高效的自然特征训练流程, 以及对多个问题的有效修复.
-  \item 为了优化渲染性能, 专门设计并开发了一个针对自然特征训练的 WebGL 工具.
-  \item 撰写了软件设计文档和相关的接口文档, 以及 WebGL 工具的用户手册.
+  \itemsep 0.4em
+  \item 作为公司 AR 产品 Android 开发团队的核心开发者之一, 开发了 AR 产品的一系列关键功能和升级措施, 同时提出并应用了更好的技术选型和更高效的自然特征训练流程.
+  \item 为了优化渲染性能, 专门设计并开发了一个优化自然特征训练流程的 WebGL 工具.
+  \item 撰写了设计文档和相关的接口文档, 以及 WebGL 工具的用户手册.
 \end{itemize}
 
-\section{专业技能}
-
-\begin{description}
-  \itemsep 0em
-  \item[{\it 编程语言}:] Python, R, C\#, Java, C/C++, Swift, MATLAB, SQL
-  \item[{\it 工具与框架}:] PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
-  \item[{\it 技能专长}:] 深度学习, 机器学习, 时间序列分析, 计量经济学, 因果分析, 信号处理, 非线性优化
-  \item[{\it 外语}:] 英语（听说读写流利）, 法语（听说读写流利）
-\end{description}
-
-\section{学术论文}
-
-\publications[keyword={selected}]{CV collections.bib}
-% \publications[keyword={selected}]{publications.bib}
-\vspace{-0.5em}
 \section{项目经历}
 
-\subsection{iOS 地图应用 \textit{RestauRank}}[03/2018~--~04/2018]
+\subsection{STLformer: 基于 STL 分解与 Rank Correlation 的时序预测模型}[03/2023]
+
+\begin{itemize}
+  \item 提出了 STLformer, 一个基于 Transformer 的时间序列预测模型.
+  \item 使用 STL 对序列进行滚动分解, 并分别以编、解码器对序列中的季节性和长期趋势进行建模.
+  \item 基于 ARCH 效应检验, 判断出序列是否具有异方差性, 并在此基础上提出了基于 Spearman 相关系数的自注意力机制（Rank Correlation）, 对序列中的非线性依赖进行建模.
+  \item STLformer 实现了在 $\mathcal{O}(N \log{N})$ 复杂度下的时间序列预测, 在多个数据集上均取得了 SOTA 的预测性能, 尤其在具有非线性依赖的序列（如金融时序）上有明显提升 ($\thicksim 21\%$).
+\end{itemize}
+
+\vspace{-\parskip}
+
+\subsection{基于深度学习的时间序列预测策略研究}[07/2022]
+
+\begin{itemize}
+  \item 评估了多种预测策略的优劣和应用场景, 如一步预测、滚动预测、直接预测、MIMO 以及 MISMO.
+  \item 在多个时序预测任务、不同的预测策略上, 对比评估了多个不同的深度学习模型的效果表现.
+  \item 针对时序数据的长度、粒度、季节性、平稳性等特征, 讨论了不同模型和策略的优劣, 并针对不同的应用场景提出了相应的模型与策略的选择建议.
+\end{itemize}
+
+\vspace{-\parskip}
+
+\subsection{分解集成策略对时序预测算法的影响研究}[07/2021]
+
+\begin{itemize}
+  \item 评估了几种常用的时序分解算法的优劣和应用场景, 如 Classical、STL 以及 Prophet.
+  \item 使用分解集成策略, 将这些分解算法与传统的计量经济学方法和机器学习方法相结合.
+  \item 在 M-Competition 数据集上对比评估了多个不同模型的效果表现.
+  \item 分解集成策略能够显著提升\textit{传统方法}的预测性能, 但对\textit{机器学习方法}的影响取决于数据分布.
+\end{itemize}
+
+% \subsection{iOS 地图应用 \textit{RestauRank}}[03/2018~--~04/2018]
+
+% \begin{itemize}
+%   \itemsep 0em
+%   \item 一款 iOS 地图应用, 能够定位当地受欢迎和高评价的餐馆, 并为用户推荐最快到达的路线.
+%   \item 利用 Google Maps SDK 和 Google Geolocation API 进行地图可视化、导航以及评论获取功能.
+% \end{itemize}
+
+\vspace{-\parskip}
+
+\subsection{基于深度学习的古代陶瓷碎片图像分割}[02/2018]
 
 \begin{itemize}
   \itemsep 0em
-  \item 一款 iOS 地图应用, 能够定位当地受欢迎和高评价的餐馆, 并为用户推荐最快到达的路线.
-  \item 利用 Google Maps SDK 和 Google Geolocation API 进行地图可视化、导航以及评论获取功能.
+  \item 构建基于二维全卷积网络的分割模型, 对古代陶瓷碎片的扫描图上的装饰区域进行分割.
+  \item 将此二维全卷积网络的分割结果与其他算法（如 $K$-均值和 DBSCAN）进行基准测试对比.
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
-\subsection{基于深度学习的古代陶瓷碎片三维深度图分割}[01/2018~--~03/2018]
-
-\begin{itemize}
-  \itemsep 0em
-  \item 将陶瓷碎片的三维深度图预处理为不同的类别, 并对分割得到的区域进行聚类.
-  \item 利用三维深度图为陶瓷碎片上的装饰区域构建二维全卷积网络分割模型.
-  \item 将这些聚类结果与其他算法（如$K$-均值和 DBSCAN）进行基准测试对比.
-\end{itemize}
-
-\vspace{-0.5em}
-
-\subsection{基于卷积神经网络和支持向量机的植物 ECG 信号分类}[10/2017~--~12/2017]
+\subsection{基于卷积神经网络和支持向量机的植物 ECG 信号分类}[11/2017]
 
 \begin{itemize}
-  \item 通过 BitScope 和专用的植物 ECG 传感器采集了 400 组植物的 ECG 信号数据.
+  \item 使用 BitScope 和专用的植物 ECG 传感器采集了 400 组植物的 ECG 信号数据.
   \item 分别采用 1D-CNN 和 SVM 进行信号分类, 其中 SVM 使用从 ECG 信号中提取的四个核心特征.
-  \item 1D-CNN 模型达到了 87\%的分类准确率，基于 SVM 的分类器则达到了 98\% 的准确率.
+  \item 1D-CNN 模型达到 87\%的分类准确率，基于 SVM 的分类器则达到 98\% 的准确率.
 \end{itemize}
 
-\vspace{-0.5em}
+% \subsection{基于麦克风阵列的声源定位系统}[03/2016~--~05/2016]
 
-\subsection{基于麦克风阵列的声源定位系统}[03/2016~--~05/2016]
-
-\begin{itemize}
-  \itemsep 0em
-  \item 基于 Python 和 C++ 语言开发了一个用于声源定位的麦克风阵列系统.
-  \item 系统基于树莓派、Arduino UNO、步进电机以及一个八通道的麦克风阵列.
-  \item 使用 NumPy 实现了 DOA-TDOA/GCC 算法, 使用 Arduino UNO 控制步进电机指向声源方向.
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item 基于 Python 和 C++ 语言开发了一个用于声源定位的麦克风阵列系统.
+%   \item 系统基于树莓派、Arduino UNO、步进电机以及一个八通道的麦克风阵列.
+%   \item 使用 NumPy 实现了 DOA-TDOA/GCC 算法, 使用 Arduino UNO 控制步进电机指向声源方向.
+% \end{itemize}
 
 % \section{Talks}
 
@@ -199,7 +212,26 @@
 %   \item Use Time Series Prediction Methods to Forecast Customers Number, \emph{1st Collaborative Workshop on Artificial Intelligence Applications for Small Medium Enterprises}, Orl\'eans, France, June~2018.
 % \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
+
+\section{学术论文}
+
+\publications[keyword={selected}]{CV collections.bib}
+% \publications[keyword={selected}]{publications.bib}
+
+\vspace{-\parskip}
+
+\section{专业技能}
+
+\begin{description}
+  \itemsep 0em
+  \item[{\it 编程语言}:] Python, R, MATLAB, C\#, Java, C/C++, SQL, \LaTeX
+  \item[{\it 工具与框架}:] PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
+  \item[{\it 技能专长}:] 深度学习, 机器学习, 时间序列分析, 计量经济学, 因果推断, 信号处理, 非线性优化
+  \item[{\it 外语}:] 英语（听说读写流利）, 法语（听说读写流利）
+\end{description}
+
+\vspace{-\parskip}
 
 \section{获奖情况}
 
@@ -207,11 +239,10 @@
   \itemsep 0em
   \item Erasmus+ 奖学金, \textit{Erasmus+ Consortium Polytech} \printdate{2017}
   \item 优秀学生奖学金, \textit{北京理工大学} \printdate{2012~--~2015}
-  % \item Provincial 2nd Prize, Beijing University Students' Calligraphy and Painting Exhibition \printdate{2014}
   \item 国家级三等奖, \textit{中国高校书画摄影联展} \printdate{2013}
 \end{itemize}
 
-\vspace{-0.5em}
+\vspace{-\parskip}
 
 \section{其他经历}
 \begin{itemize}
@@ -220,10 +251,8 @@
   \item 副社长, \emph{北京理工大学书画社} \printdate{2013~--~2015}
 \end{itemize}
 
-\vspace{-0.5em}
+% \section{兴趣爱好}
+% 篮球, 阅读, 书法, 唱歌, 健身, 烹饪.
 
-\section{兴趣爱好}
-篮球, 阅读, 书法, 唱歌, 健身, 烹饪.
-
-\footnotetext[1]{工程师文凭在法国是一个高度认证的精英学历, 相当于工程硕士学位. 只有法国高考前 10\% 的学生才有资格申请工程师学院的教育项目. 在学习期间, 除了深入的工程和科学课程外, 学生还会接受管理, 经济和社会科学的教育, 确保他们成为全面的专业人士.}
+\footnotetext[1]{工程师文凭在法国是一个被高度认证的精英学历, 相当于工程硕士学位. 只有法国高考前 10\% 的学生才有资格申请工程师学院的教育项目. 除了大量工程和科学课程外, 学生还会接受管理、经济和社会科学的教育, 确保成为全面的专业人士.}
 \end{document}

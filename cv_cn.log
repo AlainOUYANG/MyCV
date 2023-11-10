@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  25 OCT 2023 17:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.3.26)  9 NOV 2023 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1220,14 +1220,14 @@ Package hyperref Info: Link coloring OFF on input line 18.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot heightrounded 
 * h-part:(L,W,R)=(128.0374pt, 426.79135pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* v-part:(T,H,B)=(34.14322pt, 782.45088pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=718.0pt
+* \textheight=754.0pt
 * \oddsidemargin=55.76741pt
 * \evensidemargin=55.76741pt
-* \topmargin=-52.36449pt
+* \topmargin=-75.12677pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1306,7 +1306,7 @@ Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
-Overfull \hbox (118.50229pt too wide) in paragraph at lines 20--20
+Overfull \hbox (142.50223pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
@@ -1983,40 +1983,21 @@ Package nag Warning: Command \it is an old LaTeX 2.09 command.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 97.
+(nag)                Use \itshape or \textit instead on input line 96.
 
 
 Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 113.
-
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 127.
+(nag)                Use \itshape or \textit instead on input line 128.
 
 [1
 
 
 ]
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 141.
-
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 142.
-
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 143.
-
-
-Package nag Warning: Command \it is an old LaTeX 2.09 command. 
-(nag)                Use \itshape or \textit instead on input line 144.
-
 \blx@maxsegment@1=\count471
 \blx@sectionciteorder@1=\count472
-Package biblatex Info: Reference section=1 on input line 149.
-Package biblatex Info: Setting label 'refsection:1' on input line 149.
+Package biblatex Info: Reference section=1 on input line 219.
+Package biblatex Info: Setting label 'refsection:1' on input line 219.
+
 
 Package biblatex Warning: Split bibliography detected.
 (biblatex)                Many simple split bibliography setups with
@@ -2028,43 +2009,59 @@ Package biblatex Warning: Split bibliography detected.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
-Overfull \hbox (2.0631pt too wide) in paragraph at lines 149--149
+Overfull \hbox (2.0631pt too wide) in paragraph at lines 219--219
 [][]\TU/KpRoman(0)/b/n/10 Z. [][]Ouyang\TU/KpRoman(0)/m/n/10 , M. Jabloun, and P. Ravier, “Rankformer: Leverage Rank Correlation for Transformer-
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
 
-Overfull \hbox (4.47888pt too wide) in paragraph at lines 149--149
+Overfull \hbox (4.47888pt too wide) in paragraph at lines 219--219
 [][]\TU/KpRoman(0)/b/n/10 Z. [][]Ouyang\TU/KpRoman(0)/m/n/10 , P. Ravier, and M. Jabloun, “Are Deep Learning Models Practically Good as Promised?
  []
 
 
 Package nag Warning: Command \bf is an old LaTeX 2.09 command. 
-(nag)                Use \bfseries or \textbf instead on input line 149.
+(nag)                Use \bfseries or \textbf instead on input line 219.
 
-Package biblatex Info: Reference section=0 on input line 149.
+Package biblatex Info: Reference section=0 on input line 219.
+
+Package nag Warning: Command \it is an old LaTeX 2.09 command. 
+(nag)                Use \itshape or \textit instead on input line 228.
+
+
+Package nag Warning: Command \it is an old LaTeX 2.09 command. 
+(nag)                Use \itshape or \textit instead on input line 229.
+
+
+Package nag Warning: Command \it is an old LaTeX 2.09 command. 
+(nag)                Use \itshape or \textit instead on input line 230.
+
+
+Package nag Warning: Command \it is an old LaTeX 2.09 command. 
+(nag)                Use \itshape or \textit instead on input line 231.
+
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(1)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2219,7 +2216,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(1)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 228.
+(Font)              scaled to size 8.00085pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2272,7 +2269,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 228.
+(Font)              scaled to size 6.00064pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2325,7 +2322,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 228.
+(Font)              scaled to size 5.00053pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2378,7 +2375,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(2)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 228.
+(Font)              scaled to size 7.99915pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2431,7 +2428,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/8'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 228.
+(Font)              scaled to size 5.99936pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2484,7 +2481,7 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/6'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/KpMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 228.
+(Font)              scaled to size 4.99947pt on input line 257.
 Package microtype Info: Character `~ (= ~)' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(3)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2690,25 +2687,25 @@ Package microtype Info: Character `\textquestiondown ' is missing
 (microtype)             in font `\TU/KpMath-Regular.otf(4)/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Package nag Warning: 19 complaints in total.
+Package nag Warning: 18 complaints in total.
 
 [2] (./cv_cn.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `cv_cn.out' has not changed.
-(rerunfilecheck)             Checksum: 1B8C106F55FA87C0BB4F2E6E87C750F8;2258.
+(rerunfilecheck)             Checksum: 5FCEF3D2FECA21E436C8CD540ABFE066;2363.
 Package logreq Info: Writing requests to 'cv_cn.run.xml'.
 \openout1 = `cv_cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31973 strings out of 476683
- 617494 string characters out of 5804047
- 1905018 words of memory out of 5000000
- 51742 multiletter control sequences out of 15000+600000
- 516891 words of font info for 135 fonts, out of 8000000 for 9000
+ 31994 strings out of 476683
+ 619082 string characters out of 5804047
+ 1906018 words of memory out of 5000000
+ 51764 multiletter control sequences out of 15000+600000
+ 516883 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  113i,12n,142p,1219b,4866s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv_cn.xdv (2 pages, 71044 bytes).
+Output written on cv_cn.xdv (2 pages, 77004 bytes).
