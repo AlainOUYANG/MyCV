@@ -50,7 +50,6 @@
       \field{title}{Leveraging {{Rank Correlation}} and {{STL Decomposition}} for {{Transformer-based Time Series Forecasting}}}
       \field{year}{2023, (SCIE Q1, IF=8, in prep.)}
       \true{nocite}
-      \keyw{selected}
     \endentry
     \entry{ouyang2023contemporary}{article}{}
       \name{author}{3}{}{%
@@ -83,7 +82,6 @@
       \field{title}{A {{Contemporary}} and {{Comprehensive Survey}} on {{Time Series Forecasting}}}
       \field{year}{2023, (SCIE Q1, IF=8.9, in prep.)}
       \true{nocite}
-      \keyw{selected}
     \endentry
     \entry{ouyang2023stlformer}{inproceedings}{}
       \name{author}{3}{}{%
