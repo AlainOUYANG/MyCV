@@ -31,9 +31,9 @@
 %   \item Sequential \& temporal learning.
 % \end{itemize}
 
-\begin{summary}
-  Recently graduated with a Ph.D., I specialize in the fusion of econometrics and machine learning, particularly in time series forecasting. My research area encompasses time series analysis, signal processing, and sequential learning, in which I bring a robust understanding of both theoretical concepts and practical applications. I am also a team player with a proven track record of collaborating with cross-functional teams to achieve business goals.
-\end{summary}
+% \begin{summary}
+%   Graduated with a Ph.D., I specialize in the fusion of econometrics and machine learning, particularly in time series forecasting. My research area encompasses time series analysis, signal processing, and sequential learning, in which I bring a robust understanding of both theoretical concepts and practical applications. I am also a team player with a proven track record of collaborating with cross-functional teams to achieve business goals.
+% \end{summary}
 
 \vspace{-1em}
 
@@ -42,15 +42,14 @@
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Ph.D.\footnotemark[1], Computer Science and Signal Processing}{10/2019~--~09/2023}
+  \entry{Ph.D., Computer Science and Signal Processing}{10/2019~--~09/2023}
 \end{positions}
 
-\vspace{-0.3em}
+\vspace{-\parskip}
 
 \begin{itemize}
-  \itemsep 0em
   \item Dissertation: \textit{Time Series Forecasting: From Econometrics to Deep Learning}
-  \item Supervisors: Prof.~Philippe Ravier, Assoc.~Prof.~Meryem Jabloun
+  % \item Supervisors: Prof.~Philippe Ravier, Assoc.~Prof.~Meryem Jabloun
 \end{itemize}
 
 \vspace{-\parskip}
@@ -58,17 +57,18 @@
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Dipl\^ome d'Ing\'enieur\footnotemark[2], Computer Engineering, {\it Polytech Orl\'eans}}{09/2015~--~09/2018}
+  \itemsep 0.3em
+  \entry{Dipl\^ome d'Ing\'enieur\footnotemark[1], Computer Engineering, {\it Polytech Orl\'eans}}{09/2015~--~09/2018}
   \entry{M.Sc., Computer Science}{09/2017~--~09/2018}
 \end{positions}
 
-\vspace{-0.3em}
+% \vspace{-0.3em}
 
-\begin{itemize}
-  \itemsep 0em
-  \item Dissertation: \textit{A Fundamental Study on Deep Learning based Time Series Forecasting}
-  \item Supervisors: Prof.~Christel Vrain, Prof.~Marcilio C. P. de Souto, Assoc.~Prof.~Sylvie Treuillet
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item Dissertation: \textit{A Fundamental Study on Deep Learning based Time Series Forecasting}
+%   \item Supervisors: Prof.~Christel Vrain, Prof.~Marcilio C. P. de Souto, Assoc.~Prof.~Sylvie Treuillet
+% \end{itemize}
 
 \vspace{-\parskip}
 
@@ -78,26 +78,40 @@
   \entry{B.Eng., Electrical \& Electronics Engineering}{09/2012~--~06/2016}
 \end{positions}
 
-\vspace{-0.3em}
+% \vspace{-0.3em}
 
-\begin{itemize}
-  \itemsep 0em
-  \item Dissertation: \textit{A Microphone Array-based System for Sound Source Localization}
-  \item Supervisors: Assoc.~Prof.~Shiyong Li, Assoc.~Prof.~Rodolphe Weber
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0em
+%   \item Dissertation: \textit{A Microphone Array-based System for Sound Source Localization}
+%   \item Supervisors: Assoc.~Prof.~Shiyong Li, Assoc.~Prof.~Rodolphe Weber
+% \end{itemize}
 
-\vspace{-1em}
+\vspace{-\parskip}
 
 \section{Professional \\ Experience}
+
+\subsection{\large Meituan}[Beijing, China]
+
+\vspace{0.3em}
+
+\begin{positions}
+  \entry{CLC, Search and Recommendation Dept., Algorithm Engineer (L7)}{12/2023~--~Present}
+\end{positions}
+
+\begin{itemize}
+  \item Led a team of 3, deeply involved in optimizing and upgrading algorithmic pricing strategies for Meituan's membership coupon packages, responsible for the overall business in lower-tier markets, and in charge of iterative upgrades to the cost control system.
+\end{itemize}
+
+\vspace{-\parskip}
 
 \subsection{\large \scshape University of Orl\'eans}[Orl\'eans, France]
 
 \begin{positions}
-  \entry{Lecturer, {\it Teaching for Engineering Program at Polytech Orl\'eans}}{01/2023~--~09/2023}
+  \entry{Lecturer, Polytech Orl\'eans}{01/2023~--~09/2023}
 \end{positions}
 
 \begin{itemize}
-  \itemsep 0em
+  \itemsep 0.3em
   \item Introduction to Signal Processing. Signal and Linear Systems. Acquisition Systems. MATLAB.
   \item Arduino \& Embedded Systems.
 \end{itemize}
@@ -112,21 +126,10 @@
 
 \begin{itemize}
   \itemsep 0.3em
-  \item ATTILA is a building industry franchise, partnering with major industry groups. It has a large amount of time series data, e.g., the number of customers, revenue, and service types.
-  \item ATTILA wants to segment its customer groups by size and field for tailored resource allocation. It also requires a forecasting tool for key indicators to support business decisions.
-  \item Employed clustering for customer segmentation and econometric/deep learning for forecasting sales and revenue. Provided multiple forecasting models for internal tools.
-  \item Investigated the decomposition-ensemble strategy on forecasting methods, implemented a deep learning evaluation framework under various strategies, and assessed them on diverse datasets.
-  \item Developed an automated forecasting tool that selects the optimal forecasting strategy and model:
-  \begin{itemize}
-    \item For short series (<100 points), traditional methods like ARIMA and Theta are chosen, along with \textit{ensemble learning} strategies.
-    \item For medium-length series (100 to 500 points), hybrid methods like ES-RNN and Prophet are selected, incorporating the \textit{decomposition-ensemble} strategy.
-    \item For long series of (>500 points), deep learning methods like Transformer are applied.
-  \end{itemize}
-  \item Created a user-friendly and accessible forecasting tool based on libraries e.g., Flask, Plotly, and sktime, delivered as a Web APP in Docker. Users without knowledge of time-series techniques can upload an Excel file in the correct format, and this tool will complete the predictive analysis, presenting the forecast results in graphical form to support business decisions.
-  % \item Proposed STLformer, a Transformer-based time series forecasting model. It uses Spearman's $\rho$-based attention and STL decomposition, combined with the ARCH effect test, to achieve forecasting in $\mathcal{O}(N \log{N})$. It outperforms SOTA methods on multiple datasets, especially on nonlinearly dependent series (e.g., financial series). Deployed in the internal forecasting tool.
+  \item ATTILA is a building industry franchise, partnering with major industry groups. Responsible for segmenting customer groups of different sizes and fields to allocate appropriate resources and services. Also responsible for forecasting key indicators such as the number of customers, order volume, and revenue to support business decision-making and operations.
 \end{itemize}
 
-% \vspace{-\parskip}
+\vspace{-\parskip}
 
 % \subsection{\large \scshape ATTILA Gestion}[Montargis, France]
 
@@ -142,24 +145,37 @@
 
 \vspace{-\parskip}
 
-\subsection{\large \scshape eContent Store S\`arl}[Luxembourg]
+% \subsection{\large \scshape eContent Store S\`arl}[Luxembourg]
 
-\begin{positions}
-  \entry{Software Development Intern}{06/2017~--~08/2017}
-\end{positions}
+% \begin{positions}
+%   \entry{Software Development Intern}{06/2017~--~08/2017}
+% \end{positions}
 
-\begin{itemize}
-  \itemsep 0.3em
-  \item Acted as one of the core developers of the Android development team for an AR product.
-  \item Implemented key enhancements and upgrades for AR functionalities, encompassing improved technique selection, natural feature training pipeline, and numerous bug fixes.
-  \item Developed a WebGL tool for natural features training to improve rendering performance.
-  \item Wrote design and related interface documentation, and user manuals for the WebGL tool.
-\end{itemize}
+% \begin{itemize}
+%   \itemsep 0.3em
+%   \item Acted as one of the core developers of the Android development team for an AR product.
+%   \item Implemented key enhancements and upgrades for AR functionalities, encompassing improved technique selection, natural feature training pipeline, and numerous bug fixes.
+%   \item Developed a WebGL tool for natural features training to improve rendering performance.
+%   \item Wrote design and related interface documentation, and user manuals for the WebGL tool.
+% \end{itemize}
 
 \footnotetext[1]{Industrial Ph.D. program contracted with ATTILA Gestion.}
 
-\vspace{-0.5em}
+% \vspace{-0.5em}
 \section{Selected \\ Projects}
+
+\subsection{Optimization of Marketing Strategy for Coupon Package}[05/2024~--~Present]
+
+\begin{itemize}
+  \itemsep 0.3em
+  \item Coupon package is an important marketing tool, aiming to boost growth targets by leveraging users' loss aversion psychology. The strategy indirectly lowers the package price through different distribution of discount, promoting the conversion of users and thus driving growth.
+  \item In the early stage of store integration\footnotemark[2], operations put manually differentiated offers to user segments based on \textit{Order-AOV} combinations. The algorithm adopted an ``ML + OR" framework for \textbf{uplift modeling} of different treatment actions. The main challenges included: 1) a large action space; 2) significant budget fluctuations; 3) difficulty in modeling the \textit{Actual Payment}.
+  \item The v1.0 strategy, limited by RCT data volume, chose to model \textit{Order} as the target. To address large differences between online and offline costs, high-subsidy treatment mappings were designed to expand the cost decision space. Online, three A/B tests were conducted: 1) Lagrangian allocation at the user segment level, 2) Lagrangian allocation at the user level, and 3) a robust, heuristic-based 0-1 treatment strategy. Solution 2 was fully rolled out, increasing CLC orders by +0.96\% and actual payment by +0.42\%.
+  \item The v2.0 strategy mainly optimized the \textit{GTV} metric. As the GTV fluctuated greatly, it has a pronounced long-tail effect, and a low SNR. Therefore, the GTV target was decomposed as $\text{GTV} = \text{Order} \times \text{AOV}$, with separate modeling for each. A concave function transformation was applied to the AOV to enhance incremental signals in the main part of the probability density and reduce noise in the extremes, thus improving the SNR. In addition, the two-stage framework was replaced with an end-to-end DFL solution. This combined solution rolled out and increased CLC orders by +0.71\% and actual payment by +0.32\%.
+  \item The v2.2 strategy adopted the MMoE model, using multi-objective modeling to differentiate across business units benefiting from MMoE's multi-task learning capabilities. This solution was fully rolled out, increasing CLC orders by +0.35\% and actual payment by +0.26\%.
+\end{itemize}
+
+\footnotetext[2]{Integration of ToHome and ToStore businesses}
 
 % \subsection{iOS Application \textit{RestauRank}}[Mar. 2018~--~Apr. 2018]
 
@@ -169,28 +185,40 @@
 %   \item Google Maps SDK and Google Geolocation API for map visualization, navigation, and reviews.
 % \end{itemize}
 
+\subsection{Automated Time Series Forecasting Toolkit}[05/2022~--~07/2023]
+
+\begin{itemize}
+  \itemsep 0.3em
+  \item Applied clustering methods to segment ATTILA's customers, and used econometric and DL approaches to forecast and evaluate metrics such as customer count, order volume, and revenue.
+  \item Investigated the impact of decomposition-ensemble strategies on the performance of different forecasting methods, implemented an evaluation framework for DL models under various forecasting strategies, used to assess their performance on datasets with different features (\emph{length, granularity, seasonality, stationarity}).
+  \item Developed an automated forecasting toolkit automatically selecting optimal forecasting strategies (\emph{ensemble learning, decomposition-ensemble strategies}) and models (\emph{ARIMA, Theta, ES-RNN, Prophet, STLformer}) for time series data with different features/lengths.
+  \item Encapsulated the above methods into a web application using \texttt{Flask}, \texttt{Plotly}, and \texttt{sktime}, where users only need to upload Excels in matching format to complete forecasting, with analysis displayed in multi-dimensional charts to support business decision-making and operations.
+\end{itemize}
+
+\vspace{-\parskip}
+
 \subsection{STLformer: Forecasting with STL Decomposition and Rank Correlation}[03/2023]
 
 \vspace{-\parskip}
 
 \begin{itemize}
   \item Proposed STLformer, a Transformer-based time series forecasting model.
-  \item Progressively decomposes the series with STL and models seasonal and long-term trend patterns with the encoder and decoder, respectively.
-  \item Tests the ARCH effect and uses Spearman's $\rho$-based attention to model nonlinear dependencies.
-  \item Achieves forecasting in $\mathcal{O}(N \log{N})$ and outperforms SOTA methods on multiple datasets, especially on nonlinearly dependent series (e.g., financial series).
+  \item STLformer progressively decomposes time series with STL decomposition and models seasonal and long-term trend patterns with an attention-based encoder and decoder, respectively.
+  \item STLformer tests the ARCH effect and uses Spearman's $\rho$-based attention to model nonlinear dependencies.
+  \item STLformer achieves forecasting in $\mathcal{O}(N \log{N})$ and outperforms SOTA methods on multiple datasets, especially on nonlinear dependent series (e.g., financial series).
 \end{itemize}
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\subsection{On Deep Learning-based Time Series Forecasting Strategies}[07/2022]
+% \subsection{On Deep Learning-based Time Series Forecasting Strategies}[07/2022]
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\begin{itemize}
-  \item Assessed various forecasting strategies, i.e., one-step recursive, direct, MIMO, and MISMO.
-  \item Evaluated multiple deep learning models on diverse datasets and different strategies.
-  \item Discussed the pros and cons of different models and strategies and provided recommendations for different application scenarios, w.r.t. series length, granularity, seasonality, and stationarity.
-\end{itemize}
+% \begin{itemize}
+%   \item Assessed various forecasting strategies, i.e., one-step recursive, direct, MIMO, and MISMO.
+%   \item Evaluated multiple deep learning models on diverse datasets and different strategies.
+%   \item Discussed the pros and cons of different models and strategies and provided recommendations for different application scenarios, w.r.t. series length, granularity, seasonality, and stationarity.
+% \end{itemize}
 
 \vspace{-\parskip}
 
@@ -205,28 +233,28 @@
   \item This strategy can benefit traditional models, but its impact on ML models depends on the data distribution.
 \end{itemize}
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\subsection{Decorations Segmentation from Ceramic Shards with Deep Learning}[02/2018]
+% \subsection{Decorations Segmentation from Ceramic Shards with Deep Learning}[02/2018]
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\begin{itemize}
-  \item Built 2D FCNs to segment decorated regions on ancient ceramic shards.
-  \item Benchmarked the segmentation results against other algorithms, e.g., $K$-means and DBSCAN.
-\end{itemize}
+% \begin{itemize}
+%   \item Built 2D FCNs to segment decorated regions on ancient ceramic shards.
+%   \item Benchmarked the segmentation results against other algorithms, e.g., $K$-means and DBSCAN.
+% \end{itemize}
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\subsection{Plant ECGs Classification with CNN and SVM}[11/2017]
+% \subsection{Plant ECGs Classification with CNN and SVM}[11/2017]
 
-\vspace{-\parskip}
+% \vspace{-\parskip}
 
-\begin{itemize}
-  \item Sampled 400 plant ECG signals using BitScope and plant ECG sensor.
-  \item Classified the signals with 1D-CNN and SVM, where SVM uses four core extracted features.
-  \item Achieved 87\% accuracy with 1D-CNN and 98\% accuracy with SVM.
-\end{itemize}
+% \begin{itemize}
+%   \item Sampled 400 plant ECG signals using BitScope and plant ECG sensor.
+%   \item Classified the signals with 1D-CNN and SVM, where SVM uses four core extracted features.
+%   \item Achieved 87\% accuracy with 1D-CNN and 98\% accuracy with SVM.
+% \end{itemize}
 
 % \vspace{-0.5em}
 
@@ -259,9 +287,9 @@
 
 \begin{description}
   \itemsep 0em
-  \item[Programming:] Python, R, MATLAB, C\#, Java, C/C++, SQL, \LaTeX
-  \item[Frameworks \& Tools:] PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
-  \item[Expertise:] Machine/Deep Learning, Time Series Analysis, Econometrics, Causal Inference, Signal Processing, Nonlinear Optimization
+  \item[Programming:] Python, Java, Spark/Hive, SQL, \LaTeX
+  \item[Frameworks \& Tools:] TensorFlow, PyTorch, scikit-learn, Unity3D, OpenCV, PowerBI, Linux, Git
+  \item[Expertise:] Machine/Deep Learning, Time Series Analysis, Uplift Modeling, Causal Inference, Signal Processing, Nonlinear Optimization
   \item[Languages:] English (proficient), French (proficient), Mandarin (native)
 \end{description}
 
