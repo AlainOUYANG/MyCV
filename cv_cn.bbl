@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{1}
-  \datalist[entry]{ddatent/global//global/global}
-    \entry{ouyang2023leveraging}{article}{}
+  \datalist[entry]{ddatent/global//global/global/global}
+    \entry{ouyang2023leveraging}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -35,12 +35,14 @@
            given={Philippe},
            giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
-      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -51,7 +53,7 @@
       \field{year}{2023, (SCIE Q1, IF=8, in prep.)}
       \true{nocite}
     \endentry
-    \entry{ouyang2023contemporary}{article}{}
+    \entry{ouyang2023contemporary}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -67,12 +69,14 @@
            given={Philippe},
            giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
-      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -83,7 +87,7 @@
       \field{year}{2023, (SCIE Q1, IF=8.9, in prep.)}
       \true{nocite}
     \endentry
-    \entry{ouyang2023stlformer}{inproceedings}{}
+    \entry{ouyang2023stlformer}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -99,12 +103,14 @@
            given={Philippe},
            giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
-      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -116,7 +122,7 @@
       \true{nocite}
       \keyw{selected}
     \endentry
-    \entry{ouyang2023rankformer}{inproceedings}{}
+    \entry{ouyang2023rankformer}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -132,12 +138,14 @@
            given={Philippe},
            giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{fullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{bibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \strng{authorbibnamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
-      \strng{authornamehash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{1b5c153fbaa6b8e29f24133a25f77cd6}
+      \strng{authorfullhashraw}{1b5c153fbaa6b8e29f24133a25f77cd6}
       \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -149,7 +157,7 @@
       \true{nocite}
       \keyw{selected}
     \endentry
-    \entry{ouyang2023magneticfieldbased}{article}{}
+    \entry{ouyang2023magneticfieldbased}{article}{}{}
       \name{author}{3}{}{%
         {{hash=6b4aa469e9be4c4780c2644bd2cf75a7}{%
            family={Ouyang},
@@ -165,12 +173,14 @@
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
            familyi={O\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
       }
-      \strng{namehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{namehash}{fb03e9395595fc4c5faafd04d04ae5cb}
       \strng{fullhash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{fullhashraw}{f68e965c5fdae5b3f23d9e5a83d0a186}
       \strng{bibnamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
       \strng{authorbibnamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
-      \strng{authornamehash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{authornamehash}{fb03e9395595fc4c5faafd04d04ae5cb}
       \strng{authorfullhash}{f68e965c5fdae5b3f23d9e5a83d0a186}
+      \strng{authorfullhashraw}{f68e965c5fdae5b3f23d9e5a83d0a186}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -187,7 +197,7 @@
       \range{pages}{1}
       \keyw{selected}
     \endentry
-    \entry{ouyang2022are}{inproceedings}{}
+    \entry{ouyang2022are}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -203,13 +213,15 @@
            given={Meryem},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \field{extraname}{1}
+      \strng{authorfullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -221,7 +233,7 @@
       \true{nocite}
       \keyw{selected}
     \endentry
-    \entry{ouyang2022comparaison}{inproceedings}{}
+    \entry{ouyang2022comparaison}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -237,13 +249,15 @@
            given={Meryem},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \field{extraname}{2}
+      \strng{authorfullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -253,7 +267,7 @@
       \field{year}{2022}
       \true{nocite}
     \endentry
-    \entry{ouyang2022comparison}{inproceedings}{}
+    \entry{ouyang2022comparison}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -269,13 +283,15 @@
            given={Meryem},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \field{extraname}{3}
+      \strng{authorfullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{7}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -288,7 +304,7 @@
       \field{pages}{2}
       \range{pages}{1}
     \endentry
-    \entry{ouyang2021stl}{article}{}
+    \entry{ouyang2021stl}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c11ec79b10d64300c6f68c2c2389c7ce}{%
            family={\myname{Ouyang,\bibnamedelimb Zuokun}},
@@ -304,13 +320,15 @@
            given={Meryem},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{namehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{fullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{fullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{bibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
       \strng{authorbibnamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \strng{authornamehash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \strng{authornamehash}{74df9e708a9f06b7bb708396e4e0a527}
       \strng{authorfullhash}{7a39eeb58a14a8d73f4f6346d6fce5b0}
-      \field{extraname}{4}
+      \strng{authorfullhashraw}{7a39eeb58a14a8d73f4f6346d6fce5b0}
+      \field{extraname}{8}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

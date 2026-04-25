@@ -51,7 +51,7 @@
   a4paper,
   top=1.2cm,
   bottom=1cm,
-  left=4.5cm,
+  left=3.8cm,
   right=1.5cm,
   includefoot,
   heightrounded,
@@ -270,7 +270,7 @@
 \renewcommand*{\mkbibnameprefix}[1]{\ifitemannotation{highlight}{\mkbibbold{#1}}{#1}}
 \renewcommand*{\mkbibnamesuffix}[1]{\ifitemannotation{highlight}{\mkbibbold{#1}}{#1}}
 \DeclareFieldFormat{addendum}{\textcolor{Gray}{#1}}
-\defbibenvironment{bibliography}{\begin{enumerate}}{\end{enumerate}}{\item}
+\defbibenvironment{bibliography}{\begin{enumerate}[itemsep=0.4em]}{\end{enumerate}}{\item}
 
 \NewDocumentCommand{\publications}{o m}{%
   \begin{refsection}[#2]
